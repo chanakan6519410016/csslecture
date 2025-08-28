@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+  color: #1abd35;
+}
+h3 {
+  text-align: center;
+}
+#Wow {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+#Woo {
+  margin-left: 150px;
+  margin-right: 150px;
+}
+span {
+  font-weight: bold;
+  font-size: 30px;
+}
+img {
+  width: 150px;
+  border-radius: 10px;
+}
+#A {
+  border: 2px solid #9fd5f5;
+}
+#B {
+  border: 2px solid #f0f32af3;
+}

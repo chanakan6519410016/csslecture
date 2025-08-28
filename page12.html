@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      /*Pseudo Element Selector*/
+      span::before{
+        content: "Hi... "; /*ข้อความที่ต้องการเพิ่ม*/
+      }
+      span::after{
+        /*content: url(./images/pic3.png);*/
+        content: " ....bye";
+      }
+      p::first-letter{
+        font-size: 200%;
+      }
+      p::first-line{
+        font-weight: bold;
+      }
+      p::before{
+        content: "SAU ";
+      }
+    </style>
+    </style>
+  </head>
+  <body>
+    <span>this is a book </span>
+    <br>
+    <span>Wow wow wow</span>
+    <p>
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fuga eaque quidem minima error, amet accusamus ducimus reiciendis, eveniet ullam, quos nemo? Quam, praesentium placeat. Distinctio neque blanditiis quaerat porro dolorum voluptatibus eos, unde incidunt, nihil ducimus ipsum laboriosam labore! Quasi dolores eos perspiciatis, quidem aliquam dignissimos architecto at nobis delectus.
+    </p>
+  </body>
+</html>
