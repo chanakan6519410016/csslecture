@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        display: grid;
+        grid-template-columns: 200px 250px 250px 250px;
+        grid-template-rows: 70px 200px 250px 180px;
+        grid-template-areas:
+          "ital1 ital1 ital1 ital1"
+          "ital2 ital3 ital3 ital3"
+          "ital2 ital4 ital5 ital6"
+          "ital2 ital7 ital7 ital7";
+        gap: 5px;
+      }
+      #ital1 {
+        grid-area: ital1;
+      }
+      #ital2 {
+        grid-area: ital2;
+      }
+      #ital3 {
+        grid-area: ital3;
+      }
+      #ital4 {
+        grid-area: ital4;
+      }
+      #ital5 {
+        grid-area: ital5;
+      }
+      #ital6 {
+        grid-area: ital6;
+      }
+      #ital7 {
+        grid-area: ital7;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="iot" id="ital1" style="background-color: #ff0909">AAAAA</div>
+      <div class="iot" id="ital2" style="background-color: #ffef09">BBBBB</div>
+      <div class="iot" id="ital3" style="background-color: #78ff09">CCCCC</div>
+      <div class="iot" id="ital4" style="background-color: #09ceff">DDDDD</div>
+      <div class="iot" id="ital5" style="background-color: #0922ff">EEEEE</div>
+      <div class="iot" id="ital6" style="background-color: #9009ff">FFFFF</div>
+      <div class="iot" id="ital7" style="background-color: #ff09f3">GGGGG</div>
+    </div>
+  </body>
+</html>
